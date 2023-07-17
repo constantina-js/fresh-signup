@@ -1,0 +1,141 @@
+body {
+    width: 100%;
+    min-height: 100vh;
+    padding:20px 0;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header, #sign-up-form {
+    margin: 50px auto 0 auto;
+}
+
+#sign-up-form label, button{
+    display: block;
+}
+
+#sign-up-form label{
+    font-size: 24px;
+}
+
+#sign-up-form input[type="text"], input[type="password"]{
+    margin: 0 auto 20px auto;
+    min-width: 320px;
+    height: 40px;
+    font-size: 24px;
+}
+
+#sign-up-form button[type="submit"] {
+    margin: 50px auto;
+    width: 150px;
+    height: 50px;
+}
+
+#togglePassword {
+    border: none;
+    background-color: #fff;
+    margin-left: -40px;
+    font-size:24px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#password-criteria, #username-criteria {
+    width: 350px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#password-criteria ul li, #username-criteria ul li {
+    list-style: none;
+    font-size: 18px;
+}
+
+span {
+    font-size:22px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.show {
+    display:block;
+}
+
+.no-show {
+    display: none;
+}
+
+.strength-box {
+    display: inline-block;
+    margin: 0 5px;
+    width: 60px; /*320px divided by 3 minus 2*/
+    height: 5px;
+    border: solid 1px #000000;
+}
+
+.gray {
+    color: darkgrey;
+}
+
+.gray-box {
+    background-color: darkgray;
+    border-color: darkgray;
+}
+
+.green {
+    color:darkgreen;
+}
+
+.green-box {
+    background-color:darkgreen;
+    border-color:darkgreen;
+}
+
+.red {
+    color:crimson;
+}
+
+.red-box {
+    background-color:crimson;
+    border-color: crimson;
+}
+
+.orange {
+    color:orange;
+}
+
+.orange-box {
+    background-color: orange;
+    border-color: orange;
+}
+
+.submit-success, .submit-error {
+    width: 100%;
+    margin: 100px auto 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.submit-success h2, .submit-success svg {
+    color: darkgreen;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.submit-error h2, .submit-error svg {
+    color: crimson;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+.submit-error span {
+    display: block;;
+}
+
+footer {
+    margin-top: auto;
+}
